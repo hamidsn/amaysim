@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_double"
+    android:paddingLeft="@dimen/padding_double"
+    android:paddingRight="@dimen/padding_double"
+    android:paddingTop="@dimen/padding_double"
+    tools:context="com.amaysim.sample.amaysim.LoginActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                style="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/expiry"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/balance_data"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name_product"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price_product"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
